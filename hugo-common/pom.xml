@@ -12,6 +12,7 @@
     <modules>
         <module>hugo-common-alibaba-bom</module>
     </modules>
+
     <artifactId>hugo-common</artifactId>
 
 

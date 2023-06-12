@@ -23,7 +23,7 @@
         <groupId>top.hugo</groupId>
         <version>1.5.0</version>
     </parent>
-    <artifactId>ruoyi-nacos</artifactId>
+    <artifactId>hugo-nacos</artifactId>
     <packaging>jar</packaging>
 
     <properties>
