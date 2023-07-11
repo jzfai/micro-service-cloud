@@ -15,6 +15,9 @@
         <module>hugo-common-sentinel</module>
         <module>hugo-common-satoken</module>
         <module>hugo-common-excel</module>
+        <module>hugo-common-web</module>
+        <module>hugo-common-dubbo</module>
+        <module>hugo-common-redis</module>
     </modules>
     <artifactId>hugo-common</artifactId>
 

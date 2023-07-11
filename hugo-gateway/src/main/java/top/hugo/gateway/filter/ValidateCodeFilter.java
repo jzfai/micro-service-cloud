@@ -40,7 +40,6 @@ public class ValidateCodeFilter extends AbstractGatewayFilterFactory<Object> {
             if (!StringUtils.equalsAnyIgnoreCase(request.getURI().getPath(), VALIDATE_URL) || !captchaProperties.getEnabled()) {
                 return chain.filter(exchange);
             }
-
             try {
                 String rspStr = WebFluxUtils.resolveBodyFromCacheRequest(exchange);
                 Dict obj = JsonUtils.parseMap(rspStr);

@@ -12,6 +12,10 @@
         <module>hugo-gateway</module>
         <module>hugo-common</module>
         <module>hugo-api</module>
+        <module>hugo-test</module>
+        <module>hugo-common/hugo-common-web</module>
+        <module>hugo-client</module>
+        <module>hugo-common/hugo-common-dubbo</module>
     </modules>
 
     <properties>

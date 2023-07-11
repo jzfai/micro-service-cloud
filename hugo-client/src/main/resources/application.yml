@@ -2,11 +2,9 @@
 spring:
   application:
     # 应用名称
-    name: hugo-gateway
-  profiles:
-    active: gateway
+    name: hugo-client
 server:
-  port: 10010
+  port: 9005
 --- # nacos 配置
 spring:
   cloud:
